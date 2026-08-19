@@ -1,0 +1,1150 @@
+{
+  "name": "蓍草 基础概念封版补丁",
+  "base_version": "0.1.16",
+  "target_version": "0.1.17",
+  "apply_mode": "overlay_project_root",
+  "generated_date": "2026-08-19",
+  "files": [
+    {
+      "path": "README.md",
+      "state": "modified",
+      "sha256": "9a7ab2c0463e58477cfeaddcf711f7a32e3a68a551c44175eac2d24fe92a89fa",
+      "bytes": 2379
+    },
+    {
+      "path": "docs/蓍草-地支条目专项编辑规范-v0.2.md",
+      "state": "new",
+      "sha256": "9654ca3da233c0726354d2db2412ceefe3829120597ac5af023a40a3612b7ac6",
+      "bytes": 12281
+    },
+    {
+      "path": "docs/蓍草-基础概念阶段总整理-v0.2-执行记录.md",
+      "state": "new",
+      "sha256": "265ded597660fa400ea716141f471b850ce307f61ebfc37d2c09139a31133e70",
+      "bytes": 11764
+    },
+    {
+      "path": "docs/蓍草-天干条目专项编辑规范-v0.2.md",
+      "state": "new",
+      "sha256": "d3f88b2faba952f9486b72040d34296c57a9dff438d01df2a400b579ce7e94db",
+      "bytes": 8065
+    },
+    {
+      "path": "docs/蓍草-规范体系索引-v0.1.2.md",
+      "state": "modified",
+      "sha256": "d840e46f34981edfb6b890978d6e9311cc96eaf14f54d259a9a5d9326d62703b",
+      "bytes": 2486
+    },
+    {
+      "path": "package-lock.json",
+      "state": "modified",
+      "sha256": "6188dcd27adcded91fb39420c9345bb80d5c626a631669e5781806db06374f77",
+      "bytes": 63819
+    },
+    {
+      "path": "package.json",
+      "state": "modified",
+      "sha256": "91fd39190af4375fc0720b2bba371ea7e513c98967d5df05603b9a7e152f0a3e",
+      "bytes": 648
+    },
+    {
+      "path": "scripts/static-audit.mjs",
+      "state": "modified",
+      "sha256": "7dac6dd93b1f1821632fc831a69330bcad1f90c2b38334055ca91f97d1041b43",
+      "bytes": 5150
+    },
+    {
+      "path": "src/knowledge/categories/changsheng.ts",
+      "state": "new",
+      "sha256": "58a5a9eb3faeb8d806c2e7ebb4494d04389ae5d59c63cd140f736ea9e26947f7",
+      "bytes": 388
+    },
+    {
+      "path": "src/knowledge/categories/dizhi.ts",
+      "state": "new",
+      "sha256": "aca65ccbeb6ce4f76775cd44979b62466ba30b819a16ec3658db6cf2fc15456e",
+      "bytes": 439
+    },
+    {
+      "path": "src/knowledge/categories/ganzhi.ts",
+      "state": "new",
+      "sha256": "0b0faa5ac907630868ac25f2491eb059539c2e5b44487fcded91835c853d6463",
+      "bytes": 349
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/basic.md",
+      "state": "new",
+      "sha256": "993439609303872522d0b422903976f7f29346dacf24674cdd84634b7083d06a",
+      "bytes": 405
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/direction.md",
+      "state": "new",
+      "sha256": "05b585ca5107dea9ab2a04ba21b4f6b8e5de78754491a3e11fb33290e5939782",
+      "bytes": 795
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/earth.md",
+      "state": "new",
+      "sha256": "6a5f8ed780118087026bb72deebb35f6235d7f391d72570464eb77147c935953",
+      "bytes": 573
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/entry.ts",
+      "state": "new",
+      "sha256": "fa4cd3d612e174fbfc0d9273867ac4aa5017d8edbe3c70db04525b8b98fe8f6d",
+      "bytes": 2325
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/related.md",
+      "state": "new",
+      "sha256": "799022713a9ed3417201c7d83619110de5027837278a8649f0d0a80e96e1ebf5",
+      "bytes": 722
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/states.md",
+      "state": "new",
+      "sha256": "ca6b589ab2b3d2898e65f22f4301e85d4a3a9e538f3bed8c2d00570a982d3e78",
+      "bytes": 921
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/table.md",
+      "state": "new",
+      "sha256": "48540647f92ec2d7e3615224c73630ca018fdb7c8eba9707eada6072ce11eb5d",
+      "bytes": 1253
+    },
+    {
+      "path": "src/knowledge/entries/changsheng/overview/wuxing.md",
+      "state": "new",
+      "sha256": "f6ad87d1722119c69d785ce71c2c3d46eab6064f1b7ff764df9dd1dbad7be991",
+      "bytes": 588
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/canggan/basic.md",
+      "state": "new",
+      "sha256": "f685ef9991e9d64c00d7ed8b6bde29f766d8053a1b95316c285504b459cd23ac",
+      "bytes": 260
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/canggan/entry.ts",
+      "state": "new",
+      "sha256": "91bbd8102a5df2c15cebe6ee83ccd5be9d338f0bee29910f2a9c19008307b962",
+      "bytes": 1627
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/canggan/renyuan.md",
+      "state": "new",
+      "sha256": "278b2ca46cb1abccd80e94fbde4ea12989809801640baabb3c85bc23c15e6986",
+      "bytes": 784
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/canggan/table.md",
+      "state": "new",
+      "sha256": "6a10308ae3d1ef3f022839599e370d7dcac2181b1b32a1346bd41bd936c0264f",
+      "bytes": 353
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/canggan/wuxing.md",
+      "state": "new",
+      "sha256": "fb1a3c80a58cd3c0499fd427cbfc30292dfec97f4d1976dd44feffbbf1f63187",
+      "bytes": 501
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/basic.md",
+      "state": "new",
+      "sha256": "aea2917e420665801f48677d5bdc59ef504b552aa06f43993451cac9ca913004",
+      "bytes": 97
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/canggan.md",
+      "state": "new",
+      "sha256": "0aedbadf57c1479c99e1549a1d73ef26b25f796720323be22d7feb754f63ec99",
+      "bytes": 52
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/characteristics.md",
+      "state": "new",
+      "sha256": "f60d32e7cd73af0915950451aa77bb25ffda3907da866114b7e560a0a4780019",
+      "bytes": 467
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/entry.ts",
+      "state": "new",
+      "sha256": "e1a8d3cda6936a2ed31554a33d7b3d76cd733ee7f5f2bb24c9a73ff7e2a9b111",
+      "bytes": 3649
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/imagery.md",
+      "state": "new",
+      "sha256": "6de30524d7cabab035c28f3dc47de8e0a9bd617430cd3368c676211ff6cdc2f1",
+      "bytes": 224
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/related.md",
+      "state": "new",
+      "sha256": "f37d77cf2d14f9e04a0b037d35fc502f79d87271e105e526f69e2b4dbfb90150",
+      "bytes": 582
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/relations.md",
+      "state": "new",
+      "sha256": "b6dbb0545c5cb0d77157928c2e3c537aa80a48fcc084674af1731d999ddfbda7",
+      "bytes": 870
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chen/time-space.md",
+      "state": "new",
+      "sha256": "fd56466d1cf088678315ef439c03ec9349fcf7bb4303e8cd521570c1ef30aa4a",
+      "bytes": 285
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/basic.md",
+      "state": "new",
+      "sha256": "ea421f73dbc3c05ce154d2527922be894ee961376fbbab21f0d18bff75a45c7b",
+      "bytes": 97
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/canggan.md",
+      "state": "new",
+      "sha256": "47f60c4982cbf121b2669197c4ee00c598aecd38739f1fefa7376d51a58d1cac",
+      "bytes": 52
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/characteristics.md",
+      "state": "new",
+      "sha256": "5249b88e3f4fc58edb78624d98d203a509b410d8a7c09e6303d6142534b77a3d",
+      "bytes": 669
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/entry.ts",
+      "state": "new",
+      "sha256": "cca562bd29f301399d9a4a0f9269cd0951d654ff7750a478294b6d4f48e5525a",
+      "bytes": 3608
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/imagery.md",
+      "state": "new",
+      "sha256": "9e95fabf4b911efb213479b3b5b5269b55c061547cf04803138f1d33214d2a41",
+      "bytes": 233
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/related.md",
+      "state": "new",
+      "sha256": "5b7a6b64c3f64bf677c6a0a5146d217ebc370c4730f8e7cc6e8ef548bddababd",
+      "bytes": 579
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/relations.md",
+      "state": "new",
+      "sha256": "591c3cb187cbbb069b0b1e6acdfa0c427d599b21b4bd4fb226b0e03fb0cc132e",
+      "bytes": 888
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/chou/time-space.md",
+      "state": "new",
+      "sha256": "1e4bfed55f951e4ebda5a0ad24b0d3fe0e1718f26f9d3cecf7367770ee1deb98",
+      "bytes": 288
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/basic.md",
+      "state": "new",
+      "sha256": "e3d0a1152289ae9ad864b15faa6fb30eb291cba51b7f94492e0a178749079c28",
+      "bytes": 98
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/canggan.md",
+      "state": "new",
+      "sha256": "97c28f76af480d3d149dfc0e8e2f40ca679ed626e7c5060a6366ceeb60e5e49c",
+      "bytes": 45
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/characteristics.md",
+      "state": "new",
+      "sha256": "06117455d2e97903714a5c6057db464f4f06dc84439e5ca4f08681350e343d41",
+      "bytes": 522
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/entry.ts",
+      "state": "new",
+      "sha256": "fae1336990060c5ba5d052084a3c174ecc4dd81958100276758d6532e4a88b2c",
+      "bytes": 3442
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/imagery.md",
+      "state": "new",
+      "sha256": "4808259846784232017bccb2aeb3eb9228ec33172824ef4050c979efa571612b",
+      "bytes": 223
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/related.md",
+      "state": "new",
+      "sha256": "2a3223a00a5ef261f9837df1249616335623ed975069d041730d96a8feb29f63",
+      "bytes": 743
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/relations.md",
+      "state": "new",
+      "sha256": "3de20187c1c83c3ff084028e04e44caee4c3894b208e564837946b6b17054ddd",
+      "bytes": 887
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/hai/time-space.md",
+      "state": "new",
+      "sha256": "123da9f68cd7a85344a7d12d238174e55594c64e7b5154a8437bb35d11d7ccde",
+      "bytes": 282
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuchong/basic.md",
+      "state": "new",
+      "sha256": "9089b538df735afdd8c0775388bd5ba9d2435f350efc6816af16439930dccf3f",
+      "bytes": 240
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuchong/entry.ts",
+      "state": "new",
+      "sha256": "67474f51f1de5b561a1223bdac62e7d0b8a0f541e6d178ae969d64dcb608ef55",
+      "bytes": 1478
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuchong/nature.md",
+      "state": "new",
+      "sha256": "4443ed383c9ff20b19812d6b15607f6562235af45486f2507ec50540f6c1f726",
+      "bytes": 227
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuchong/pairs.md",
+      "state": "new",
+      "sha256": "c1cc8fac4029de6abcb3a6c77bec9ecce12c85dcb6db0e019fb1cee555fbc493",
+      "bytes": 164
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuhe/basic.md",
+      "state": "new",
+      "sha256": "ad57dd852a0995621c2ad281057c643564a8e8e2a0063340522183e0dd8d73e5",
+      "bytes": 385
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuhe/entry.ts",
+      "state": "new",
+      "sha256": "64ff54af6e8a4a9740e2fd016632ccccca751c0234eb7bf6e05a3d3f4f4bfc7b",
+      "bytes": 1745
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuhe/nature.md",
+      "state": "new",
+      "sha256": "44f89ac6f2b799892b0bae197e89137882f020b378a58be837667d1b624234d2",
+      "bytes": 224
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/liuhe/pairs.md",
+      "state": "new",
+      "sha256": "576137baf9849a32ba4800e453a8b9f676b1c1fc2e3f9b48259ac96435ae6a2f",
+      "bytes": 161
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/basic.md",
+      "state": "new",
+      "sha256": "9e601a41408385d451383b2da92c33954719c1ce23a0cd967872cb6ff50a684e",
+      "bytes": 95
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/canggan.md",
+      "state": "new",
+      "sha256": "f6b1de88a757e78e519a5f35460d538eb44256fd3923a2fe9d8dcd7159f3f169",
+      "bytes": 39
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/characteristics.md",
+      "state": "new",
+      "sha256": "c0d80353195a5454e73f5182d4544284ee1a9260648a8471a5dc1ff88e294fff",
+      "bytes": 584
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/entry.ts",
+      "state": "new",
+      "sha256": "54de3161ab1fb9181052574ee737554348457aa8fe3aa1d4f1b8b11c77bc0f3c",
+      "bytes": 3532
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/imagery.md",
+      "state": "new",
+      "sha256": "297a70540392b70ed8f0e77e2a32dae3caf635400a3731ee6ed1bb82c7d89aa3",
+      "bytes": 236
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/related.md",
+      "state": "new",
+      "sha256": "72259facda62828dff6a3493d8ac15f12dd01a013c07b0961776efa4ad371173",
+      "bytes": 746
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/relations.md",
+      "state": "new",
+      "sha256": "c2da964792d37873c0348945d288e5e02c5180150ee35c9fe706f6b2910ef928",
+      "bytes": 893
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/mao/time-space.md",
+      "state": "new",
+      "sha256": "46122cafdeca8bd19d141c6da5a0c750652cdf45b586c5947998825ca356b8a1",
+      "bytes": 306
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/basic.md",
+      "state": "new",
+      "sha256": "1d2252336b57413aa2cdbd3a03051890eac2d221f39d7ffe9764cbf9c2fada70",
+      "bytes": 653
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/canggan.md",
+      "state": "new",
+      "sha256": "98bd344f0507aa3aab3e9d3838c21866e16b0e4ffd9253f538d825fbd8208c71",
+      "bytes": 252
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/characteristics.md",
+      "state": "new",
+      "sha256": "9f559f85c0db581c3441dca48999d67663875676d524792f5d25420fcf4de00f",
+      "bytes": 1237
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/entry.ts",
+      "state": "new",
+      "sha256": "279b3f79652bd3196f6757d64e6dee1f532c0d4278a52bacbd7d4b84474235de",
+      "bytes": 2659
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/generates-controls.md",
+      "state": "new",
+      "sha256": "26571e90a65990f27ab6f5c41e9e5e0490835864edf799ed83e9549dbb3c5fd4",
+      "bytes": 504
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/related.md",
+      "state": "new",
+      "sha256": "f03b4b59f8ca4cba45e06ef1f310a2785662fc3c3ed554bc81cb4453386cd2f3",
+      "bytes": 595
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/relations.md",
+      "state": "new",
+      "sha256": "d85d1e22e93baa8beedbc9408353549a30df5a553426677c10413f90a940dd95",
+      "bytes": 389
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/time-space.md",
+      "state": "new",
+      "sha256": "82d52dc8f4d3522dbf0a521207d48b464a0dbc8f5e2dea632bc6963b4596f251",
+      "bytes": 2556
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/overview/yin-yang-wuxing.md",
+      "state": "new",
+      "sha256": "3cb11f7cfc147c4e3ac6fe7058a6fef38e3d51dc9114110039e85abad400cfce",
+      "bytes": 518
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhe/basic.md",
+      "state": "new",
+      "sha256": "022b1215839ed26faceae50f844f34852ce0aa59f71e7a2b0481938576afb19e",
+      "bytes": 307
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhe/entry.ts",
+      "state": "new",
+      "sha256": "1e0dce160042ebe1bf11bd05ec140143effc2a377b0ff296e1439c347e7f9223",
+      "bytes": 1088
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhe/nature.md",
+      "state": "new",
+      "sha256": "e922192392530b7d0bb3127cd146edf3df7a7f0cdbb12783d23db56b4916d3d9",
+      "bytes": 142
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhe/pairs.md",
+      "state": "new",
+      "sha256": "b72acedb6b667465a47ac893b51426def93684fb855f9a3ae50fe9301c765fdc",
+      "bytes": 134
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhe/sheng-wang-ku.md",
+      "state": "new",
+      "sha256": "f8a3f742ac0be715afb4106fffb420ca79ce00f1d5bafffeb4aeb317e2003a72",
+      "bytes": 612
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhui/basic.md",
+      "state": "new",
+      "sha256": "f272c5751e8a7d7354d9da104fb64b2013e0d7b806b6fd377688113501aae1c6",
+      "bytes": 163
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhui/entry.ts",
+      "state": "new",
+      "sha256": "b5a36501e1c0867f083a29c23d625550ef3c6766c9d84f505d5aa18cfd6d9d09",
+      "bytes": 786
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhui/nature.md",
+      "state": "new",
+      "sha256": "9ab67a907429f9ddee5d237b484e4bccae07511db1e60a14b6aa4cf7035b0012",
+      "bytes": 154
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/sanhui/pairs.md",
+      "state": "new",
+      "sha256": "a156c42f3526085140377cb92b8686fbbe3f715d44f8064fb348aa6fa5c84555",
+      "bytes": 400
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/basic.md",
+      "state": "new",
+      "sha256": "49cc4b0c9b263944be431da83580ab050b15955ea2e4c68739d5de21665781e7",
+      "bytes": 97
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/canggan.md",
+      "state": "new",
+      "sha256": "8a3a957063ba33234ba0af7f1884c04174ae16c175949199b04c233f5076b42c",
+      "bytes": 52
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/characteristics.md",
+      "state": "new",
+      "sha256": "c8447bd64493900bb42acd8e864ae6b6d91ea5d6a29affeccd917971d099ba91",
+      "bytes": 533
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/entry.ts",
+      "state": "new",
+      "sha256": "6866cd7b3e3a774cb4a6d41255a0bb76199d50aa7a8ede77c28d3e596ca887fc",
+      "bytes": 3631
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/imagery.md",
+      "state": "new",
+      "sha256": "e8f54654cd7a8de24aca3c1ae567364d2cbeedf11c1694bb64af1770b8c60010",
+      "bytes": 233
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/related.md",
+      "state": "new",
+      "sha256": "0f29c3a2a1a02ba842f36f9b08b978762f75bce71e3935244d22e33caa5726da",
+      "bytes": 750
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/relations.md",
+      "state": "new",
+      "sha256": "b8e6fb3903c8fc2fa9ed85b425cf64d4ac21761ebfa77a7a36cf995567fb377f",
+      "bytes": 912
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/shen/time-space.md",
+      "state": "new",
+      "sha256": "7d98d989bf970ff065a59f1f78c7af8f163ce28cf531004f0ebcd7cef264f924",
+      "bytes": 285
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/basic.md",
+      "state": "new",
+      "sha256": "093d00f7d7f93b31f0c727c1ddcf590600fc8de58cc55b8b34ed3ec8bcaf8a0b",
+      "bytes": 93
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/canggan.md",
+      "state": "new",
+      "sha256": "5ae0eee59476c2211dc1e9c12cf35f007946e728c357d2ce7a18c4ce3fec33fa",
+      "bytes": 50
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/characteristics.md",
+      "state": "new",
+      "sha256": "15fa4f3d48340585781d7fa94d9abf912ce33e893a711d1784b41311e9ef83e5",
+      "bytes": 601
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/entry.ts",
+      "state": "new",
+      "sha256": "ef4e97d56387774ae0d0ae997888c795acddc42a2d6cc51da6ce9f95c43f48f5",
+      "bytes": 3627
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/imagery.md",
+      "state": "new",
+      "sha256": "697e78257286942bda29a04413c5d57603e077943039a6b394c6982a5915532c",
+      "bytes": 252
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/related.md",
+      "state": "new",
+      "sha256": "2f6cbdfb5321e60fbe25be2bc8e727bb80a1615b7e377c5a6a59e6edcf1a1ac2",
+      "bytes": 831
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/relations.md",
+      "state": "new",
+      "sha256": "f00397673fbd3cc26a57234306a7fed3d3249d9d2d0d86af011d98f73adbffc8",
+      "bytes": 898
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/si/time-space.md",
+      "state": "new",
+      "sha256": "99ad5ce8161cc6a977318f65020042dac27edae5feacaed6effe2c0083b96782",
+      "bytes": 279
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/basic.md",
+      "state": "new",
+      "sha256": "60fcc786411e18070fadab679ab33e64f56cf8385bab9a7e46380727188781cc",
+      "bytes": 95
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/canggan.md",
+      "state": "new",
+      "sha256": "c038fad5a9e78dab2403f813182b7ad2351fdf51c38b2f2dfcdddb9dbdcd10f6",
+      "bytes": 51
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/characteristics.md",
+      "state": "new",
+      "sha256": "aaa2dcd1955a4c73329ffe0546e445f6564a4a8f55f8aecb2e01fa73e598691b",
+      "bytes": 669
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/entry.ts",
+      "state": "new",
+      "sha256": "a16c7394d82f533aa27c8844b9e4f93fc369fddb47f8816351023e7d8dad3e3d",
+      "bytes": 3679
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/imagery.md",
+      "state": "new",
+      "sha256": "4d3ffee2502dfff5b9e4a3d745cdae3ccff4b4c75bf62672013bcfb44cc56d73",
+      "bytes": 280
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/related.md",
+      "state": "new",
+      "sha256": "786d0ac6f51062893bc8eec8c897acf293f5277e4cffccef934d3d64e58ad74e",
+      "bytes": 580
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/relations.md",
+      "state": "new",
+      "sha256": "25428c408723f77d00e01ae0b0f79e3122f7c201ae2b16aa08522faae21606e6",
+      "bytes": 881
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wei/time-space.md",
+      "state": "new",
+      "sha256": "bde49c697b5c7d3b60157ff3a0efbd0cc438861c55fe432831492c7774447c06",
+      "bytes": 282
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/basic.md",
+      "state": "new",
+      "sha256": "5c2ab23248b1647ae1852e810a4c6a8fcb7d57f1195d3e262db34aa6a0df5dd0",
+      "bytes": 93
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/canggan.md",
+      "state": "new",
+      "sha256": "ea6f5c7c4751237ff02ecac7f682936ea56e686027b0ef98a0cde645449f8c52",
+      "bytes": 44
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/characteristics.md",
+      "state": "new",
+      "sha256": "9f55419400b62606d9da2b82a0bf2ef663f8ed109e12e49cdc64a1e39ba3d8ea",
+      "bytes": 738
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/entry.ts",
+      "state": "new",
+      "sha256": "ac924fe58082c3c18cf01877dbfe4c83eaa7b2b7297e473835b091104573201c",
+      "bytes": 3577
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/imagery.md",
+      "state": "new",
+      "sha256": "ce45ea64ef73c98b83afa8580f2e75ace64d4d04bd841d22219c872145e1a190",
+      "bytes": 213
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/related.md",
+      "state": "new",
+      "sha256": "2a294e250375bd51b50d34144edcbd67d6ba5dae06fd0e58680098bb1985b6f4",
+      "bytes": 831
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/relations.md",
+      "state": "new",
+      "sha256": "75e4f83f27004b1fc9a9025604c3842987c44705d5b171338558df647b2504ca",
+      "bytes": 880
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/wu/time-space.md",
+      "state": "new",
+      "sha256": "3732bfd20bf9dd60ce5e93e0b21bb1fec3d8e2019d5cd6bb35b50faefd8d39b0",
+      "bytes": 303
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xianghai/basic.md",
+      "state": "new",
+      "sha256": "17d03f8873c9dc1b44b2fe30548d021ca73afdd765ff38b590dcaf08ea968d7e",
+      "bytes": 289
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xianghai/entry.ts",
+      "state": "new",
+      "sha256": "4181c874657520adacedb9123cbd72a38609b93d8af21eb5ac9e352da3b6c53b",
+      "bytes": 1566
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xianghai/nature.md",
+      "state": "new",
+      "sha256": "4135b556478787a992ab499e2c1d1ae958671794109ffc2faa76563c796d9798",
+      "bytes": 227
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xianghai/pairs.md",
+      "state": "new",
+      "sha256": "f1ab4e1044a56b61d12054abd08d64e4ad3cbfb77607cb10c2dc724636b0e24d",
+      "bytes": 164
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xiangxing/basic.md",
+      "state": "new",
+      "sha256": "09ab4506f979d21bedb0f0de1ba558c105374c3dfc4e8d236e83b022bb0edcc9",
+      "bytes": 244
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xiangxing/entry.ts",
+      "state": "new",
+      "sha256": "526bd3928282d8c073bfd48cfdef5e898cbb0bcedb5e864bca98102fe8097c0f",
+      "bytes": 2896
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xiangxing/nature.md",
+      "state": "new",
+      "sha256": "94558078e2151951b31467fe453290625b9d131bdb06495eaa1fc34f9acc2bfa",
+      "bytes": 228
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xiangxing/s2.md",
+      "state": "new",
+      "sha256": "c7280f97a6f507145823e39a084abd0b24b6e7f162e85ede9fa5fc14824caa71",
+      "bytes": 630
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xiangxing/s3.md",
+      "state": "new",
+      "sha256": "d7b0e775cb047cd767ca5514cdc023c836ab001a97db9245debe5a1ec72fde5f",
+      "bytes": 251
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/basic.md",
+      "state": "new",
+      "sha256": "cebb1998e6092e09feac34fbdee282e53e49074f4767ecefb8cac2b01a914875",
+      "bytes": 96
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/canggan.md",
+      "state": "new",
+      "sha256": "65bfd9f32e3becd7779a7f346968a099d547baa6713596485d76ddea3342c03f",
+      "bytes": 50
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/characteristics.md",
+      "state": "new",
+      "sha256": "296fc1fb00d6f853a00d1f75e035251a7fa3ea1e69e727318abbfbcfc63d0214",
+      "bytes": 505
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/entry.ts",
+      "state": "new",
+      "sha256": "258482c5f5112f58757fa7016917fd7417cdf598af734d6451b9c64b62e9681b",
+      "bytes": 3484
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/imagery.md",
+      "state": "new",
+      "sha256": "8d647a9ff60d2b963cd7426bbda7e145b6743d9e074661f4f495af8e992c7090",
+      "bytes": 237
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/related.md",
+      "state": "new",
+      "sha256": "68f5599661f449817dace3105ed821aeb993edb61d1277ccc2b2a473d34dee1a",
+      "bytes": 575
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/relations.md",
+      "state": "new",
+      "sha256": "388acfb4490b7bc4d3ee87f0c1d0dd316486668ceea77c968e39834698febb63",
+      "bytes": 874
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/xu/time-space.md",
+      "state": "new",
+      "sha256": "c7eaa131a25235d99839c3345f80064c004fc53f27931f3b6fd1df790fd99604",
+      "bytes": 279
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/basic.md",
+      "state": "new",
+      "sha256": "dad5ed9d037418760cfb58a8b21c6fea39a99dee904a7f25b3e01167c1dd8578",
+      "bytes": 95
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/canggan.md",
+      "state": "new",
+      "sha256": "cd8710a07e21e2880d5662d22f248278b031a5c9f4d5134e1557e78989814a27",
+      "bytes": 51
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/characteristics.md",
+      "state": "new",
+      "sha256": "e3d1a3ab0490c4b49222255ba1b3df5dc2cfd5dbf6b134ee65e732731a2348c1",
+      "bytes": 614
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/entry.ts",
+      "state": "new",
+      "sha256": "f40ad9c2f6befa2de07aee5d8025e10d7eba090dd5f21c8381f220ae8c89b837",
+      "bytes": 3589
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/imagery.md",
+      "state": "new",
+      "sha256": "84d08be9983a4ac78a8bf2c03532aafdfd3ec3a007ef5a7dc80338b27b344228",
+      "bytes": 248
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/related.md",
+      "state": "new",
+      "sha256": "af1efd528146539527fd9657e7436b66056748f39feb93ffefdc848e8cce8b1c",
+      "bytes": 746
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/relations.md",
+      "state": "new",
+      "sha256": "a5da0f05d3e51a49d2bb2331f7a809bbd29bdb975683f730ec91133eda685484",
+      "bytes": 905
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/yin/time-space.md",
+      "state": "new",
+      "sha256": "f2ec6a1d8e09545ef3aee4c3dde879707e1e3055429cf74c9022051b12c5dcb0",
+      "bytes": 282
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/basic.md",
+      "state": "new",
+      "sha256": "e589a83ad092f06c2e9a81c25715bedc0f2180c487b4b02dbc1c903dd633d198",
+      "bytes": 95
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/canggan.md",
+      "state": "new",
+      "sha256": "d29ae458f92fdcb973b1b2b55b5167724145b67d0f472b18dfde568ae48641a6",
+      "bytes": 39
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/characteristics.md",
+      "state": "new",
+      "sha256": "1e67334daaf7d2eca9bb6a5bdd90f212ea1da45cf2bf2048959c6bf17f243d8b",
+      "bytes": 450
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/entry.ts",
+      "state": "new",
+      "sha256": "cbadd94e54bb973bbabb1ea06cf0c04fe6fed85f0e30a0ba02867a7cfe8101ce",
+      "bytes": 3388
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/imagery.md",
+      "state": "new",
+      "sha256": "dfbacc34d4edff7468b512f27e087b2212c586ceb189b24775b3bb5b8a5d5504",
+      "bytes": 223
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/related.md",
+      "state": "new",
+      "sha256": "8abb39b6ec7d716afda96ef5a1b2c59a18694d2b5f3970124fec8464de9853f5",
+      "bytes": 746
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/relations.md",
+      "state": "new",
+      "sha256": "9b03a8c00b6c40b7f56dadae838fef1e68998671968dd852c52be5139ce36752",
+      "bytes": 887
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/you/time-space.md",
+      "state": "new",
+      "sha256": "04adfa3a3dddf76911198495b04c845c30155fb6793f076fcfb9099fbbaeaa99",
+      "bytes": 306
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/basic.md",
+      "state": "new",
+      "sha256": "d45c5cb852a9221774cacdd16483663fffb316d3bf627f5da7beaa0c76d63207",
+      "bytes": 93
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/canggan.md",
+      "state": "new",
+      "sha256": "ce96a8b8a17375775c9910893bb2731d57a2cfa0072c2ade9546e50d65e883fa",
+      "bytes": 38
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/characteristics.md",
+      "state": "new",
+      "sha256": "518647c45532ba641b9e8b416f1ec1decf494d59e99ca07ba8ce318801ffb1d2",
+      "bytes": 726
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/entry.ts",
+      "state": "new",
+      "sha256": "dd7d90e09157b051a26f2027569cba15a5d4ae83cb601ed948a992faed21bbf3",
+      "bytes": 3237
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/imagery.md",
+      "state": "new",
+      "sha256": "b56f87b6d96a239283b1c55e4ed1614df330e5ad9e397fbbe6cadd0153bf2483",
+      "bytes": 234
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/related.md",
+      "state": "new",
+      "sha256": "2607a8e81693250a6de1f0198dad8cc4a189541496b91d6959973351b11324aa",
+      "bytes": 831
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/relations.md",
+      "state": "new",
+      "sha256": "1cd604d98005b2100e9b1c27628a91dbab8e6aff7904e2275f3d70581f102073",
+      "bytes": 886
+    },
+    {
+      "path": "src/knowledge/entries/dizhi/zi/time-space.md",
+      "state": "new",
+      "sha256": "1f0fc23dd2a3c0bdf1adefd7e3a46b9e13aa9b7f631ad7b57a4ae018549ddf1c",
+      "bytes": 306
+    },
+    {
+      "path": "src/knowledge/entries/ganzhi/sequence/basic.md",
+      "state": "new",
+      "sha256": "1465a01dea3b6610824963175f1091e62daef81d929fd623ff6c950089eb1c73",
+      "bytes": 532
+    },
+    {
+      "path": "src/knowledge/entries/ganzhi/sequence/entry.ts",
+      "state": "new",
+      "sha256": "5069c2ef3cd1de69e61f8dc61605ea0ca2c8ca297df5b7c877ca96edab164480",
+      "bytes": 1430
+    },
+    {
+      "path": "src/knowledge/entries/ganzhi/sequence/jiazi.md",
+      "state": "new",
+      "sha256": "b6777ee13788d12223eff2f42e5e39c77c9ee8149d619a3e11975da8bbc78327",
+      "bytes": 919
+    },
+    {
+      "path": "src/knowledge/entries/ganzhi/sequence/related.md",
+      "state": "new",
+      "sha256": "6a7843ef7e19decfabdb14791705640ee5105b51c4869ded25a232b4439ee428",
+      "bytes": 189
+    },
+    {
+      "path": "src/knowledge/entries/ganzhi/sequence/usage.md",
+      "state": "new",
+      "sha256": "820661d2fa72065582ca66c02d4f3aedba407452b66de68cabad182d07a0a870",
+      "bytes": 370
+    },
+    {
+      "path": "src/knowledge/entries/ganzhi/sequence/xun.md",
+      "state": "new",
+      "sha256": "94614e6856e5e5d9ab6e4c14f0f6a4ce542500d8648cfc57313765cd6d47a574",
+      "bytes": 280
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/overview/entry.ts",
+      "state": "modified",
+      "sha256": "6395db0c8b006338656cf6d6dfcca6cee7950e5ca53a9d65f6a1729f5b2f2394",
+      "bytes": 2765
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/overview/related.md",
+      "state": "modified",
+      "sha256": "f99b1eb237d08196a168ce66de7d14241ad3eaad50839d4f823b73a3066780ff",
+      "bytes": 744
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/overview/relations.md",
+      "state": "modified",
+      "sha256": "5e3fb6b399e5e8bf5c56d802f6dd75ef39cb76d85484d3ea770c61718e23f3c7",
+      "bytes": 594
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/wuhe/basic.md",
+      "state": "new",
+      "sha256": "a20a99ce462b9b39f08f3da0cceb59b7570681f8a07a3660e1e5e15481ea2afb",
+      "bytes": 411
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/wuhe/entry.ts",
+      "state": "new",
+      "sha256": "aeac355de2e35134752f8a2977bdf6af97898b551512e98c7bee7d9d2f951649",
+      "bytes": 1215
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/wuhe/he-hua.md",
+      "state": "new",
+      "sha256": "d19bda3612e2fa70bf27d8a9f8efdedf982abe2815e256f9d7e6a7bff009a4a5",
+      "bytes": 979
+    },
+    {
+      "path": "src/knowledge/entries/tiangan/wuhe/s2.md",
+      "state": "new",
+      "sha256": "77bb7ffad9516a300562b4241d23e5d7f81d5aa4fbafc68e8d131f9e69959e66",
+      "bytes": 282
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/basic.md",
+      "state": "new",
+      "sha256": "8e7fad6cf02e85e82901c2d699312bf821ca746719a7184f06db55c696cdf0ff",
+      "bytes": 542
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/earth.md",
+      "state": "new",
+      "sha256": "2d44bdaee2b4e804b2de8d839ad1aaeba5f722fdb64d8db28fa970b62503924a",
+      "bytes": 700
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/entry.ts",
+      "state": "new",
+      "sha256": "cc9e37e25a7c6ed13cbd93ed340fca217fabeb0d63cfc137fd6ed5d4e8440dd1",
+      "bytes": 1863
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/ganzhi.md",
+      "state": "new",
+      "sha256": "8d8c346c4cbdf7c3fe92d31c495f56056f5bd744de5ebbdb954c168cdd785a75",
+      "bytes": 262
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/related.md",
+      "state": "new",
+      "sha256": "3207f9bb7aec8f0854af33b3fcf5041097574925c9ce66b72b2a2d24302bfed3",
+      "bytes": 474
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/seasons.md",
+      "state": "new",
+      "sha256": "2c4bd0cbc7a18c7993a6e9f5d5d3f29b45119709dd56907ce477733fd6b15442",
+      "bytes": 219
+    },
+    {
+      "path": "src/knowledge/entries/wuxing/wangxiang/states.md",
+      "state": "new",
+      "sha256": "52a61faa8d7020c81e81d20bd4487b56673c8b6761f8e60b3cf7b3375dece561",
+      "bytes": 839
+    },
+    {
+      "path": "src/knowledge/sources/baihu-tong.ts",
+      "state": "new",
+      "sha256": "c033f2f08a469a85989870b2c35c6ea60f4656ee7f2047373bc5ef8edf8a50ec",
+      "bytes": 170
+    },
+    {
+      "path": "src/knowledge/sources/hko-tiangan-dizhi.ts",
+      "state": "new",
+      "sha256": "8cbdacfed0ea663169bfd433b47c5e6d8d2007ebd97086056c0150c89c6fffdb",
+      "bytes": 194
+    },
+    {
+      "path": "src/knowledge/sources/huainanzi-tianwenxun.ts",
+      "state": "new",
+      "sha256": "c5290c05fd7261d1638a312dd26a8ac9d21880e48cf50a43c23de7f085462b18",
+      "bytes": 200
+    },
+    {
+      "path": "src/knowledge/sources/lihaiji.ts",
+      "state": "new",
+      "sha256": "577272a5ff0a4e5230c043555ee721108869ab60fbbd3991e8797539a9ca6954",
+      "bytes": 161
+    },
+    {
+      "path": "src/knowledge/sources/sanli-yizong.ts",
+      "state": "new",
+      "sha256": "0588f15bab5e5f9cc11dfbe1d05ee6b9f7f05c2099d478e3e1c46ceb7e15ce32",
+      "bytes": 169
+    },
+    {
+      "path": "src/knowledge/sources/shangshu-mushi.ts",
+      "state": "new",
+      "sha256": "9225f5448e0bd2743f2589f1f16b2b9fdad726bab6da34999354472786755a8f",
+      "bytes": 188
+    },
+    {
+      "path": "src/knowledge/sources/shiji-lvshu.ts",
+      "state": "new",
+      "sha256": "026975bf4c47091d401ba1848576b05556bfdd708b358e40b3cfe568116b5256",
+      "bytes": 185
+    },
+    {
+      "path": "src/knowledge/sources/shiming.ts",
+      "state": "new",
+      "sha256": "37396ec844d40b55b8f0ba9b8e9f9c77d016d797f54b99eb7e3a7f3c437e0c7b",
+      "bytes": 158
+    },
+    {
+      "path": "src/knowledge/sources/shuowen.ts",
+      "state": "new",
+      "sha256": "f6c7b4c7e31996cc31247db52b875f24cf9938ed51385397f46cd1973e7ea074",
+      "bytes": 164
+    },
+    {
+      "path": "src/knowledge/sources/wuxing-dayi.ts",
+      "state": "new",
+      "sha256": "f9cb88d747c3dcb5ee84d3120d9e67cae147290e1bd5971e24669832b19f5bbc",
+      "bytes": 168
+    },
+    {
+      "path": "src/knowledge/sources/xiejibianfangshu.ts",
+      "state": "new",
+      "sha256": "9e4f800b5b234b5d838f571faa6fe6b4ebe0ea93c68ced5efe4fb25c6f3a5e45",
+      "bytes": 182
+    },
+    {
+      "path": "src/knowledge/sources/yimao.ts",
+      "state": "new",
+      "sha256": "b12946c8ca4fb10de888e29ecd0c5625b0e7aa96f30c5d18f7f58a0eb995879a",
+      "bytes": 156
+    },
+    {
+      "path": "tests/api/public-api.test.ts",
+      "state": "modified",
+      "sha256": "ac4819564e97bfd13538c71e5498ca5a3859e386a0c733c58a6f2f818cc39ec6",
+      "bytes": 3276
+    },
+    {
+      "path": "升级说明-v0.1.17.md",
+      "state": "new",
+      "sha256": "5b731c2464f2cd2fb64e527419fa88ecf4144320a0831c31c62c91e0175aea34",
+      "bytes": 2819
+    }
+  ],
+  "validation": {
+    "static_audit": "passed: 42 entries / 227 referenced Markdown sections / 32 sources",
+    "citation_section_parity": "passed: 227 sections",
+    "typescript_transpile": "passed: 102 TypeScript files",
+    "vitest": "not run in current environment (base archive node_modules platform mismatch)",
+    "vite_build": "not run in current environment (base archive node_modules platform mismatch)"
+  }
+}
