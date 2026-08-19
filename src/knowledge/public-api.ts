@@ -72,3 +72,6 @@ export {
   formatKnowledgeSource
 }
 export type * from './schema'
+
+// 基础事实层：供知识库内部与未来外部消费者共享的稳定结构化事实。
+export * from './data/foundation'
