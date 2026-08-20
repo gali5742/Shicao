@@ -1,1 +1,1 @@
-未藏**乙、己、丁**[[cite:wei-canggan-1]]。
+[[fact:canggan.by-branch|未]][[cite:wei-canggan-1]]。

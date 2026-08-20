@@ -5,12 +5,14 @@ import type { ResolvedKnowledgeSection } from '@/knowledge/public-api'
 import { getLinkableKnowledgeEntries, transformCitationMarkers, transformKnowledgeReferences } from '@/knowledge/public-api'
 import { routeForKnowledgeId } from '@/router/knowledgeRouteAdapter'
 import { renderKnowledgeMarkdown } from './knowledgeMarkdown'
+import { renderStructuredFacts } from './structuredFactMarkdown'
 
 const props = defineProps<{ section: ResolvedKnowledgeSection; entryId: string }>()
 const router = useRouter()
 
 const html = computed(() => {
-  const withKnowledgeLinks = transformKnowledgeReferences(props.section.content, (id) => `knowledge:${id}`)
+  const withStructuredFacts = renderStructuredFacts(props.section.content)
+  const withKnowledgeLinks = transformKnowledgeReferences(withStructuredFacts, (id) => `knowledge:${id}`)
   const renderedMarkdown = renderKnowledgeMarkdown(withKnowledgeLinks, getLinkableKnowledgeEntries(), props.entryId)
   return transformCitationMarkers(
     renderedMarkdown,

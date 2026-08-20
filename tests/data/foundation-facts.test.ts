@@ -5,6 +5,10 @@ import {
   DIZHI_ORDER,
   getBinaryRelationPartner,
   getCanggan,
+  getDizhiByElement,
+  getDizhiWuxingRelations,
+  getFourSeasonalStates,
+  getTianganByElement,
   getChangshengByBranch,
   getChangshengByStem,
   getChangshengState,
@@ -101,4 +105,25 @@ describe('基础事实核心', () => {
     expect(getSeasonalStates('木')).toEqual({ 木: '旺', 火: '相', 土: '死', 金: '囚', 水: '休' })
     expect(getSeasonalStates('土')).toEqual({ 木: '囚', 火: '休', 土: '旺', 金: '相', 水: '死' })
   })
+
+  it('天干地支的五行分组与生克对象由基础属性和五行规则派生', () => {
+    expect(getDizhiByElement('土')).toEqual(['丑', '辰', '未', '戌'])
+    expect(getTianganByElement('火')).toEqual(['丙', '丁'])
+    expect(getDizhiWuxingRelations('子')).toEqual({
+      sourceElement: '水',
+      generates: { element: '木', symbols: ['寅', '卯'] },
+      controls: { element: '火', symbols: ['巳', '午'] },
+      generatedBy: { element: '金', symbols: ['申', '酉'] },
+      controlledBy: { element: '土', symbols: ['丑', '辰', '未', '戌'] }
+    })
+  })
+
+  it('春夏秋冬的旺相休囚死表只保存时令当令五行，其余状态统一计算', () => {
+    const rows = getFourSeasonalStates()
+    expect(rows.map(({ season, dominant }) => [season, dominant])).toEqual([
+      ['春', '木'], ['夏', '火'], ['秋', '金'], ['冬', '水']
+    ])
+    expect(rows[0].states).toEqual({ 木: '旺', 火: '相', 土: '死', 金: '囚', 水: '休' })
+  })
+
 })

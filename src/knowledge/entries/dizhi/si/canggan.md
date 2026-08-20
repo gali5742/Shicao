@@ -1,1 +1,1 @@
-巳藏**庚、丙、戊**[[cite:si-canggan-1]]。
+[[fact:canggan.by-branch|巳]][[cite:si-canggan-1]]。

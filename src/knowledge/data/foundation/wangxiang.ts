@@ -7,6 +7,17 @@ import {
   WUXING_ORDER
 } from './wuxing'
 
+export type FourSeason = '春' | '夏' | '秋' | '冬'
+
+export const FOUR_SEASON_DOMINANT: Readonly<Record<FourSeason, Wuxing>> = {
+  春: '木',
+  夏: '火',
+  秋: '金',
+  冬: '水'
+}
+
+export const FOUR_SEASON_ORDER = ['春', '夏', '秋', '冬'] as const satisfies readonly FourSeason[]
+
 export function getSeasonalStates(dominant: Wuxing): Readonly<Record<Wuxing, SeasonalState>> {
   const result = {} as Record<Wuxing, SeasonalState>
 
@@ -20,4 +31,12 @@ export function getSeasonalStates(dominant: Wuxing): Readonly<Record<Wuxing, Sea
   }
 
   return result
+}
+
+export function getFourSeasonalStates() {
+  return FOUR_SEASON_ORDER.map((season) => ({
+    season,
+    dominant: FOUR_SEASON_DOMINANT[season],
+    states: getSeasonalStates(FOUR_SEASON_DOMINANT[season])
+  }))
 }

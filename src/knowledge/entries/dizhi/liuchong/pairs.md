@@ -1,10 +1,3 @@
 十二地支的六组六冲如下[[cite:liuchong-pairs-1]]：
 
-| 六冲 |
-|---|
-| 子、午 |
-| 丑、未 |
-| 寅、申 |
-| 卯、酉 |
-| 辰、戌 |
-| 巳、亥 |
+[[fact:dizhi.liuchong.table]]

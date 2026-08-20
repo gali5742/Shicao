@@ -2,37 +2,32 @@
 
 丑属土，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 丑所生 | 申、酉金 |
-| 丑所克 | 亥、子水 |
-| 生丑 | 巳、午火 |
-| 克丑 | 寅、卯木 |
+[[fact:dizhi.wuxing-relations.table-by-branch|丑]]
 
-即丑土生申、酉金，克亥、子水；巳、午火生丑土，寅、卯木克丑土[[cite:chou-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|丑]][[cite:chou-relations-1]]。
 
 ### 六合
 
-**丑与子六合**[[cite:chou-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|丑]][[cite:chou-relations-2]]。
 
 ### 六冲
 
-**丑与未相冲**[[cite:chou-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|丑]][[cite:chou-relations-3]]。
 
 ### 相害
 
-**丑与午相害**[[cite:chou-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|丑]][[cite:chou-relations-4]]。
 
 ### 相刑
 
-**丑、戌、未三支相刑**[[cite:chou-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|丑]][[cite:chou-relations-5]]。
 
 ### 三合
 
-**巳、酉、丑三合金局**[[cite:chou-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|丑]][[cite:chou-relations-6]]。
 
-在生、旺、库的解释中，巳为金生，酉为金旺，丑为金库，因此丑在巳、酉、丑三合中居金之库位。
+[[fact:dizhi.sanhe.role-by-branch|丑]]
 
 ### 三会（方合）
 
-**亥、子、丑三会北方水**[[cite:chou-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|丑]][[cite:chou-relations-7]]。

@@ -1,1 +1,1 @@
-酉藏**辛**[[cite:you-canggan-1]]。
+[[fact:canggan.by-branch|酉]][[cite:you-canggan-1]]。

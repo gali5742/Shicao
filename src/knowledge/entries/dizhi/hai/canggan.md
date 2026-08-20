@@ -1,1 +1,1 @@
-亥藏**壬、甲**[[cite:hai-canggan-1]]。
+[[fact:canggan.by-branch|亥]][[cite:hai-canggan-1]]。

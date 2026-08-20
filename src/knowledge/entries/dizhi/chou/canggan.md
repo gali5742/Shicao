@@ -1,1 +1,1 @@
-丑藏**癸、辛、己**[[cite:chou-canggan-1]]。
+[[fact:canggan.by-branch|丑]][[cite:chou-canggan-1]]。

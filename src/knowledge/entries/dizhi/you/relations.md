@@ -2,37 +2,32 @@
 
 酉属金，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 酉所生 | 亥、子水 |
-| 酉所克 | 寅、卯木 |
-| 生酉 | 辰、戌、丑、未土 |
-| 克酉 | 巳、午火 |
+[[fact:dizhi.wuxing-relations.table-by-branch|酉]]
 
-即酉金生亥、子水，克寅、卯木；辰、戌、丑、未土生酉金，巳、午火克酉金[[cite:you-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|酉]][[cite:you-relations-1]]。
 
 ### 六合
 
-**酉与辰六合**[[cite:you-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|酉]][[cite:you-relations-2]]。
 
 ### 六冲
 
-**酉与卯相冲**[[cite:you-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|酉]][[cite:you-relations-3]]。
 
 ### 相害
 
-**酉与戌相害**[[cite:you-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|酉]][[cite:you-relations-4]]。
 
 ### 相刑
 
-**酉自刑**[[cite:you-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|酉]][[cite:you-relations-5]]。
 
 ### 三合
 
-**巳、酉、丑三合金局**[[cite:you-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|酉]][[cite:you-relations-6]]。
 
-在生、旺、库的解释中，巳为金生，酉为金旺，丑为金库，因此酉在巳、酉、丑三合中居金之旺位。
+[[fact:dizhi.sanhe.role-by-branch|酉]]
 
 ### 三会（方合）
 
-**申、酉、戌三会西方金**[[cite:you-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|酉]][[cite:you-relations-7]]。

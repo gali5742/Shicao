@@ -2,37 +2,32 @@
 
 子属水，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 子所生 | 寅、卯木 |
-| 子所克 | 巳、午火 |
-| 生子 | 申、酉金 |
-| 克子 | 辰、戌、丑、未土 |
+[[fact:dizhi.wuxing-relations.table-by-branch|子]]
 
-即子水生寅、卯木，克巳、午火；申、酉金生子水，辰、戌、丑、未土克子水[[cite:zi-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|子]][[cite:zi-relations-1]]。
 
 ### 六合
 
-**子与丑六合**[[cite:zi-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|子]][[cite:zi-relations-2]]。
 
 ### 六冲
 
-**子与午相冲**[[cite:zi-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|子]][[cite:zi-relations-3]]。
 
 ### 相害
 
-**子与未相害**[[cite:zi-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|子]][[cite:zi-relations-4]]。
 
 ### 相刑
 
-**子与卯相刑**[[cite:zi-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|子]][[cite:zi-relations-5]]。
 
 ### 三合
 
-**申、子、辰三合水局**[[cite:zi-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|子]][[cite:zi-relations-6]]。
 
-在生、旺、库的解释中，申为水生，子为水旺，辰为水库，因此子在申、子、辰三合中居水之旺位。
+[[fact:dizhi.sanhe.role-by-branch|子]]
 
 ### 三会（方合）
 
-**亥、子、丑三会北方水**[[cite:zi-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|子]][[cite:zi-relations-7]]。

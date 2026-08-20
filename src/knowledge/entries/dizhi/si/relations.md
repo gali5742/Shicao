@@ -2,37 +2,32 @@
 
 巳属火，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 巳所生 | 辰、戌、丑、未土 |
-| 巳所克 | 申、酉金 |
-| 生巳 | 寅、卯木 |
-| 克巳 | 亥、子水 |
+[[fact:dizhi.wuxing-relations.table-by-branch|巳]]
 
-即巳火生辰、戌、丑、未土，克申、酉金；寅、卯木生巳火，亥、子水克巳火[[cite:si-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|巳]][[cite:si-relations-1]]。
 
 ### 六合
 
-**巳与申六合**[[cite:si-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|巳]][[cite:si-relations-2]]。
 
 ### 六冲
 
-**巳与亥相冲**[[cite:si-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|巳]][[cite:si-relations-3]]。
 
 ### 相害
 
-**巳与寅相害**[[cite:si-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|巳]][[cite:si-relations-4]]。
 
 ### 相刑
 
-**寅、巳、申三支相刑**[[cite:si-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|巳]][[cite:si-relations-5]]。
 
 ### 三合
 
-**巳、酉、丑三合金局**[[cite:si-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|巳]][[cite:si-relations-6]]。
 
-在生、旺、库的解释中，巳为金生，酉为金旺，丑为金库，因此巳在巳、酉、丑三合中居金之生位。
+[[fact:dizhi.sanhe.role-by-branch|巳]]
 
 ### 三会（方合）
 
-**巳、午、未三会南方火**[[cite:si-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|巳]][[cite:si-relations-7]]。

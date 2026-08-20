@@ -1,1 +1,1 @@
-戌藏**辛、丁、戊**[[cite:xu-canggan-1]]。
+[[fact:canggan.by-branch|戌]][[cite:xu-canggan-1]]。

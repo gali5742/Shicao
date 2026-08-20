@@ -1,92 +1,42 @@
-# 蓍草 v0.1.17 · 基础事实核心 A 补丁
+# 蓍草 v0.1.17 显示层迁移 B3 补丁
 
-## 基线
+基线：已应用“基础事实核心 A + 显示层迁移 B1 + B2”的 v0.1.17。
 
-- 适用于当前 v0.1.17。
-- **不更新版本号。**
-- 本补丁只建立第一阶段后的结构化基础事实核心，不修改任何知识正文、页面显示或路由。
+本补丁不更新版本号，不修改 Knowledge ID，不改正文解释方向。
 
-## 新增结构
+## 本次迁移
 
-```text
-src/knowledge/data/foundation/
-├─ types.ts
-├─ wuxing.ts
-├─ tiangan.ts
-├─ dizhi.ts
-├─ canggan.ts
-├─ ganzhi.ts
-├─ changsheng.ts
-├─ dizhi-relations.ts
-├─ wangxiang.ts
-└─ index.ts
-```
+1. 旺相休囚死
+   - 新增春、夏、秋、冬与当令五行的稳定映射。
+   - 四时“旺、相、休、囚、死”结果不再由 Markdown 手工维护，统一调用 `getSeasonalStates()` 推导。
+   - `seasons.md` 改为 `[[fact:wangxiang.seasons-table]]`。
 
-### 已建立的单一事实/计算来源
+2. 地支五行生克
+   - 新增 `selectors.ts`，统一由天干/地支基础五行属性与五行生克规则派生同五行成员及生克对象。
+   - 十二个地支 `relations.md` 中原有四行静态生克表与重复总结句，改为：
+     - `[[fact:dizhi.wuxing-relations.table-by-branch|子]]`
+     - `[[fact:dizhi.wuxing-relations.summary-by-branch|子]]`
+   - 保持原页面显示习惯，其中土支仍按“辰、戌、丑、未”顺序展示。
 
-- 五行生克：只保存生成、克制两个正向环，反向关系计算得到。
-- 天干：只保存次序、阴阳、五行、稳定 Knowledge ID。
-- 地支：只保存次序、阴阳、五行、稳定 Knowledge ID。
-- 藏干：十二支统一一份 `CANGGAN`。
-- 六十甲子：由十干、十二支次序同步循环生成，不手写 60 条。
-- 六旬：从六十甲子自动切分为六组十条。
-- 十二长生：只保存十二状态顺序 + 十干长生起点；顺逆由天干阴阳计算，120 格全部推导。
-- 六合、六冲、相害：保存一份二元配对，可从任一成员取得另一成员。
-- 三合、三会：保留完整三成员组合；三合同时保留生/旺/库角色，三会保留方位与五行。
-- 相刑：使用有方向的 edge，保留子卯互刑、寅巳申/丑戌未循环方向与四自刑。
-- 旺相休囚死：由当令五行 + 五行生克统一计算，不保存 25 个独立结果。
+3. 天干
+   - 当前十个天干单条页面没有重复维护与地支页同型的五行生克表，因此本次不为追求形式对称而新增显示层内容。
+   - `selectors.ts` 已同时提供 `getTianganByElement()` 与 `getTianganWuxingRelations()`，供后续十神等知识层复用。
 
-## Public API
+## 验证
 
-`src/knowledge/public-api.ts` 现在导出 `./data/foundation`，因此未来龟甲或其他消费者可以通过知识库公开 API 使用这些稳定事实，不需要读取 Markdown。
+在打包环境已完成：
+- `vue-tsc --noEmit`：通过（按当前仓库已修正的 PinyinTitle 类型口径验证）
+- `node scripts/static-audit.mjs`：通过
+  - 42 entries
+  - 227 referenced Markdown sections
+  - 32 sources
+- 静态检查：十二地支关系页已无手工维护的四行五行生克表。
 
-## 测试
-
-新增：
-
-```text
-tests/data/foundation-facts.test.ts
-```
-
-覆盖：
-
-- 六十甲子数量、首尾、唯一性与按干/支查询；
-- 六旬分组；
-- 十二支藏干；
-- 十二长生起点、阳顺阴逆、十干完整行、地支完整列；
-- 六合/六冲/相害反向解析；
-- 三合/三会完整组合；
-- 相刑方向与自刑；
-- 旺相休囚死计算。
-
-## 当前刻意不做
-
-本补丁是 A 阶段，只建立事实核心。因此暂时保留旧 `src/knowledge/data/tiangan-facts.json` 和正文中的静态表格。
-
-下一步 B 阶段再逐项把：
-
-1. 十二长生表；
-2. 藏干表；
-3. 六十甲子；
-4. 地支关系；
-5. 旺相休囚死与派生生克；
-
-从 Markdown/旧数据迁移到这一事实核心。迁移完成后再删除重复旧数据。
-
-## 已完成验证
-
-在当前构建副本上：
-
-- `vue-tsc --noEmit`：通过；
-- `node scripts/static-audit.mjs`：通过（42 entries / 227 referenced Markdown sections / 32 sources）；
-- foundation TypeScript 独立编译：通过；
-- foundation 运行时断言：通过。
-
-当前容器的 `node_modules` 缺 Linux Rollup optional dependency，因此无法直接启动 Vitest；用户本地环境可执行：
+当前打包环境的 node_modules 来自 Windows 基线，Linux 缺少 Rollup optional native dependency，因此无法在此环境正常启动 Vitest/Vite。请在本地覆盖后执行：
 
 ```powershell
 npm test
 npm run build
 ```
 
-本补丁没有包含此前已在本地确认的拼音标题类型修复，也不修改 GitHub Pages workflow。
+两项通过后，B3 可封口。下一步建议单独进行“旧重复数据清理”，重点确认并移除已无消费者的 `tiangan-facts.json` 等历史事实文件。

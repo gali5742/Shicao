@@ -2,37 +2,32 @@
 
 辰属土，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 辰所生 | 申、酉金 |
-| 辰所克 | 亥、子水 |
-| 生辰 | 巳、午火 |
-| 克辰 | 寅、卯木 |
+[[fact:dizhi.wuxing-relations.table-by-branch|辰]]
 
-即辰土生申、酉金，克亥、子水；巳、午火生辰土，寅、卯木克辰土[[cite:chen-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|辰]][[cite:chen-relations-1]]。
 
 ### 六合
 
-**辰与酉六合**[[cite:chen-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|辰]][[cite:chen-relations-2]]。
 
 ### 六冲
 
-**辰与戌相冲**[[cite:chen-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|辰]][[cite:chen-relations-3]]。
 
 ### 相害
 
-**辰与卯相害**[[cite:chen-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|辰]][[cite:chen-relations-4]]。
 
 ### 相刑
 
-**辰自刑**[[cite:chen-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|辰]][[cite:chen-relations-5]]。
 
 ### 三合
 
-**申、子、辰三合水局**[[cite:chen-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|辰]][[cite:chen-relations-6]]。
 
-在生、旺、库的解释中，申为水生，子为水旺，辰为水库，因此辰在申、子、辰三合中居水之库位。
+[[fact:dizhi.sanhe.role-by-branch|辰]]
 
 ### 三会（方合）
 
-**寅、卯、辰三会东方木**[[cite:chen-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|辰]][[cite:chen-relations-7]]。

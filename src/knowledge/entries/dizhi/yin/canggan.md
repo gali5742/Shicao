@@ -1,1 +1,1 @@
-寅藏**甲、丙、戊**[[cite:yin-canggan-1]]。
+[[fact:canggan.by-branch|寅]][[cite:yin-canggan-1]]。

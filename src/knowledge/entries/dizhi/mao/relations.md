@@ -2,37 +2,32 @@
 
 卯属木，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 卯所生 | 巳、午火 |
-| 卯所克 | 辰、戌、丑、未土 |
-| 生卯 | 亥、子水 |
-| 克卯 | 申、酉金 |
+[[fact:dizhi.wuxing-relations.table-by-branch|卯]]
 
-即卯木生巳、午火，克辰、戌、丑、未土；亥、子水生卯木，申、酉金克卯木[[cite:mao-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|卯]][[cite:mao-relations-1]]。
 
 ### 六合
 
-**卯与戌六合**[[cite:mao-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|卯]][[cite:mao-relations-2]]。
 
 ### 六冲
 
-**卯与酉相冲**[[cite:mao-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|卯]][[cite:mao-relations-3]]。
 
 ### 相害
 
-**卯与辰相害**[[cite:mao-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|卯]][[cite:mao-relations-4]]。
 
 ### 相刑
 
-**子与卯相刑**[[cite:mao-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|卯]][[cite:mao-relations-5]]。
 
 ### 三合
 
-**亥、卯、未三合木局**[[cite:mao-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|卯]][[cite:mao-relations-6]]。
 
-在生、旺、库的解释中，亥为木生，卯为木旺，未为木库，因此卯在亥、卯、未三合中居木之旺位。
+[[fact:dizhi.sanhe.role-by-branch|卯]]
 
 ### 三会（方合）
 
-**寅、卯、辰三会东方木**[[cite:mao-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|卯]][[cite:mao-relations-7]]。

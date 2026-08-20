@@ -1,1 +1,1 @@
-卯藏**乙**[[cite:mao-canggan-1]]。
+[[fact:canggan.by-branch|卯]][[cite:mao-canggan-1]]。

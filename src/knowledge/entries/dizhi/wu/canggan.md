@@ -1,1 +1,1 @@
-午藏**丁、己**[[cite:wu-canggan-1]]。
+[[fact:canggan.by-branch|午]][[cite:wu-canggan-1]]。

@@ -1,10 +1,3 @@
 十二地支的六组相害如下[[cite:xianghai-pairs-1]]：
 
-| 相害 |
-|---|
-| 子、未 |
-| 丑、午 |
-| 寅、巳 |
-| 卯、辰 |
-| 申、亥 |
-| 酉、戌 |
+[[fact:dizhi.xianghai.table]]

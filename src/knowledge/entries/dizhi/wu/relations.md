@@ -2,37 +2,32 @@
 
 午属火，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 午所生 | 辰、戌、丑、未土 |
-| 午所克 | 申、酉金 |
-| 生午 | 寅、卯木 |
-| 克午 | 亥、子水 |
+[[fact:dizhi.wuxing-relations.table-by-branch|午]]
 
-即午火生辰、戌、丑、未土，克申、酉金；寅、卯木生午火，亥、子水克午火[[cite:wu-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|午]][[cite:wu-relations-1]]。
 
 ### 六合
 
-**午与未六合**[[cite:wu-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|午]][[cite:wu-relations-2]]。
 
 ### 六冲
 
-**午与子相冲**[[cite:wu-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|午]][[cite:wu-relations-3]]。
 
 ### 相害
 
-**午与丑相害**[[cite:wu-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|午]][[cite:wu-relations-4]]。
 
 ### 相刑
 
-**午自刑**[[cite:wu-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|午]][[cite:wu-relations-5]]。
 
 ### 三合
 
-**寅、午、戌三合火局**[[cite:wu-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|午]][[cite:wu-relations-6]]。
 
-在生、旺、库的解释中，寅为火生，午为火旺，戌为火库，因此午在寅、午、戌三合中居火之旺位。
+[[fact:dizhi.sanhe.role-by-branch|午]]
 
 ### 三会（方合）
 
-**巳、午、未三会南方火**[[cite:wu-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|午]][[cite:wu-relations-7]]。

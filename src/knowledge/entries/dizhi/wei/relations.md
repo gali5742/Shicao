@@ -2,37 +2,32 @@
 
 未属土，与其他地支之间的五行生克如下：
 
-| 关系 | 地支 |
-|---|---|
-| 未所生 | 申、酉金 |
-| 未所克 | 亥、子水 |
-| 生未 | 巳、午火 |
-| 克未 | 寅、卯木 |
+[[fact:dizhi.wuxing-relations.table-by-branch|未]]
 
-即未土生申、酉金，克亥、子水；巳、午火生未土，寅、卯木克未土[[cite:wei-relations-1]]。
+[[fact:dizhi.wuxing-relations.summary-by-branch|未]][[cite:wei-relations-1]]。
 
 ### 六合
 
-**未与午六合**[[cite:wei-relations-2]]。
+[[fact:dizhi.liuhe.by-branch|未]][[cite:wei-relations-2]]。
 
 ### 六冲
 
-**未与丑相冲**[[cite:wei-relations-3]]。
+[[fact:dizhi.liuchong.by-branch|未]][[cite:wei-relations-3]]。
 
 ### 相害
 
-**未与子相害**[[cite:wei-relations-4]]。
+[[fact:dizhi.xianghai.by-branch|未]][[cite:wei-relations-4]]。
 
 ### 相刑
 
-**丑、戌、未三支相刑**[[cite:wei-relations-5]]。
+[[fact:dizhi.xiangxing.by-branch|未]][[cite:wei-relations-5]]。
 
 ### 三合
 
-**亥、卯、未三合木局**[[cite:wei-relations-6]]。
+[[fact:dizhi.sanhe.by-branch|未]][[cite:wei-relations-6]]。
 
-在生、旺、库的解释中，亥为木生，卯为木旺，未为木库，因此未在亥、卯、未三合中居木之库位。
+[[fact:dizhi.sanhe.role-by-branch|未]]
 
 ### 三会（方合）
 
-**巳、午、未三会南方火**[[cite:wei-relations-7]]。
+[[fact:dizhi.sanhui.by-branch|未]][[cite:wei-relations-7]]。
