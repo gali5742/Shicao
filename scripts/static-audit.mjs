@@ -1,8 +1,17 @@
 import { readdir, readFile, stat } from 'node:fs/promises'
-import { resolve, relative, dirname } from 'node:path'
+import { resolve, relative, dirname, sep } from 'node:path'
 
 const root = resolve(process.cwd(), 'src/knowledge')
 const errors = []
+
+// 已迁移到 foundation facts 的旧天干聚合 JSON 不应重新进入项目。
+const legacyTianganFacts = resolve(root, 'data/tiangan-facts.json')
+try {
+  await stat(legacyTianganFacts)
+  errors.push('发现已废弃的数据文件 data/tiangan-facts.json；请使用 data/foundation 统一事实层')
+} catch {
+  // 不存在即为预期状态。
+}
 
 async function walk(dir) {
   const files = []
@@ -32,11 +41,27 @@ async function collectIds(files) {
 }
 
 const files = await walk(root)
-const entryFiles = files.filter((file) => file.includes('/entries/') && file.endsWith('/entry.ts'))
-const groupFiles = files.filter((file) => file.includes('/groups/') && file.endsWith('.ts'))
-const categoryFiles = files.filter((file) => file.includes('/categories/') && file.endsWith('.ts'))
-const relationTypeFiles = files.filter((file) => file.includes('/relation-types/') && file.endsWith('.ts'))
-const sourceFiles = files.filter((file) => file.includes('/sources/') && file.endsWith('.ts'))
+const knowledgePath = (file) => relative(root, file).split(sep).join('/')
+const entryFiles = files.filter((file) => {
+  const path = knowledgePath(file)
+  return path.startsWith('entries/') && path.endsWith('/entry.ts')
+})
+const groupFiles = files.filter((file) => {
+  const path = knowledgePath(file)
+  return path.startsWith('groups/') && path.endsWith('.ts')
+})
+const categoryFiles = files.filter((file) => {
+  const path = knowledgePath(file)
+  return path.startsWith('categories/') && path.endsWith('.ts')
+})
+const relationTypeFiles = files.filter((file) => {
+  const path = knowledgePath(file)
+  return path.startsWith('relation-types/') && path.endsWith('.ts')
+})
+const sourceFiles = files.filter((file) => {
+  const path = knowledgePath(file)
+  return path.startsWith('sources/') && path.endsWith('.ts')
+})
 
 if (entryFiles.length === 0) errors.push('未发现任何 entry.ts')
 
